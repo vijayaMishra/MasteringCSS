@@ -3,20 +3,26 @@ body {
 }
 
 .main-heading {
-    background-color: #57e1f6;
-    padding: 28px;
+    background-color: #f18fb6;
+    color: black;
+    padding: 25px;
     margin-top: 0;
     text-align: center;
 }
 
 .accordion {
-    background-color: rgb(252, 224, 99);
+    background-color: rgb(179, 223, 244);
     border: none;
     cursor: pointer;
     width: 100%;
     text-align: left;
     padding: 18px;
     font-size: 15px;
+    
+}
+
+.accordion:hover, .accordion:active {
+    background-color: rgb(124, 200, 236);
 }
 
 .section-details {
