@@ -3,22 +3,35 @@ body {
 }
 
 .main-heading {
-    background-color: #f18fb6;
+    background-color: #f9bfd7;
     color: black;
-    padding: 25px;
+    padding: 8px 0;
     margin-top: 0;
     text-align: center;
+}
+.everyday-tracker {
+    margin-bottom: 10px;
+    font-size: 25px;
+}
+.mainpage-subheading {
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.other-subheading {
+    margin-left: 18px;
 }
 
 .accordion {
     background-color: rgb(179, 223, 244);
     border: none;
     cursor: pointer;
+    margin: 5px 0;
     width: 100%;
     text-align: left;
     padding: 18px;
     font-size: 15px;
-    
+    box-sizing: border-box;
 }
 
 .accordion:hover, .accordion:active {
@@ -26,5 +39,5 @@ body {
 }
 
 .section-details {
-
+    padding: 18px;
 }
