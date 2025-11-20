@@ -4,7 +4,7 @@ body {
 
 .main-heading {
     background-color: #57e1f6;
-    padding: 25px;
+    padding: 28px;
     margin-top: 0;
 }
 
@@ -12,8 +12,12 @@ body {
     background-color: rgb(252, 224, 99);
     border: none;
     cursor: pointer;
+    width: 100%;
+    text-align: left;
+    padding: 18px;
+    font-size: 15px;
 }
 
 .section-details {
-    
+
 }
